@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Olá 1°B</title>
+	<title>Planeta Futebol/title>
 	<!--Vinculando o css externo -->
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<header>
-		<h>Olá 1°B este é um modelo para utilizar no seu projeto</h>
+		<h></h>
 	</header>
 
 	<section>
@@ -22,3 +22,41 @@
 	</footer>
 </body>
 </html>
+/* Estilos gerais para todo o corpo do texto */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0ddee;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+	background-color:#c171b8;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Estilo para o parágrafo com a classe destaque */
+.destaque {
+	color: #ff0000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Estilo para o rodapé */
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Estilo específico para o parágrafo com o ID rodapé */
+#rodape {
+	font-size: 14px;
+	color: #ccc;
+}
